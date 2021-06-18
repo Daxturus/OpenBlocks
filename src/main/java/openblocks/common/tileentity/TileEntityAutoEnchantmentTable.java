@@ -62,7 +62,7 @@ public class TileEntityAutoEnchantmentTable extends SyncedTileEntity implements 
 
 	private static final String TAG_SEED = "Seed";
 
-	public static final int MAX_STORED_LEVELS = 30;
+	public static final int MAX_STORED_LEVELS = 500;
 	public static final int TANK_CAPACITY = FluidXpUtils.getMaxPossibleFluidForLevel(MAX_STORED_LEVELS);
 
 	public static enum Slots {
